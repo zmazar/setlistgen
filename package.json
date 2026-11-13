@@ -1,0 +1,27 @@
+{
+  "name": "setlistgen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack -H 127.0.0.1 -p 3000",
+    "build": "next build --webpack",
+    "start": "next start -H 127.0.0.1 -p 3000",
+    "lint": "eslint",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "iron-session": "^9.0.1",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  }
+}
